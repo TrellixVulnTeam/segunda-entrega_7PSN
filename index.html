@@ -11,6 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="./img/icon.ico" />
   </head>
   <body>
     <header>
@@ -67,8 +68,8 @@
           <div class="carousel-item">
             <img src="./img/slide-3.jpg" class="d-block w-100" alt="Slide 3" />
           </section>
-        </div>
-        <button
+          </div>
+          <button
           class="carousel-control-prev"
           type="button"
           data-bs-target="#carouselExampleControls"
@@ -76,8 +77,8 @@
         >
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
-        </button>
-        <button
+          </button>
+          <button
           class="carousel-control-next"
           type="button"
           data-bs-target="#carouselExampleControls"
@@ -85,16 +86,9 @@
         >
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
-        </button>
+          </button>
       </div>
-    </main>
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-      crossorigin="anonymous"
-    ></script>
-    <section class="form-container">
+        <section class="form-container">
         <select class="form-select" aria-label="Default select example">
             <option selected>Venta</option>
             <option value="1">Arriendo</option>
@@ -126,19 +120,17 @@
           <select class="form-select form-price" aria-label="Default select example">
             <option selected>USD</option>
             <option value="1">U.F.</option>
-          </select>
-          
-          
-          <button type="button" class="btn btn-primary button-search" 
-        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-  Buscar
-        </button>
-    </section>
+          </select>  
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-primary button-search" type="button">Buscar</button>
+          </div>
+        </section>
+    </main>
     <footer class="footer">
         <div class="contacto">
           <h4>Contáctenos</h4>
           <p>+56 9 9488 3602</p>
-          <p>lopezastrada@lasmarias.com</p>
+          <p>lopezastrada@mlaprop.com</p>
           <p>Los Militares 4665, dpto. 112, Las Condes</p>
         </div>
         <div class="redes-cont">
@@ -156,6 +148,12 @@
         <h4 class="copyright">
           Copyright &copy; 2022. Todos los derechos reservados.
           </h4>
-      </footer>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
