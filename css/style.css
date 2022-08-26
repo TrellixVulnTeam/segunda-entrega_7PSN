@@ -134,6 +134,38 @@
 }
 
 /* <----- Contacto -----> */
+.contacto-main {
+  background-color: #dfdfcecc;
+}
+.contacto-title {
+  height: 100px;
+  background-image: linear-gradient(#193724b8, #dfdfcecc);
+  z-index: 2;
+}
+.contacto-title h1 {
+  padding: 15px;
+}
+.contacto-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.iframe-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 15px;
+}
+
+.contacto-data {
+  padding: 15px;
+}
+
+.envie-consulta {
+  border-top: 1px #193724 solid;
+  padding: 15px;
+}
 
 @media (max-width: 750px) {
   .contacto {
@@ -141,5 +173,13 @@
   }
   .copyright {
     display: none;
+  }
+
+  .contacto-info {
+    display: block;
+  }
+
+  .iframe-container {
+    width: 80%;
   }
 }
