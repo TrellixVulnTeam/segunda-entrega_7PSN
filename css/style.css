@@ -56,11 +56,12 @@
 }
 
 .form-select {
-  width: 50%;
+  width: 45%;
+  margin: 5px;
 }
 
 .form-price {
-  width: 100%;
+  width: 91.6%;
 }
 
 .footer {
