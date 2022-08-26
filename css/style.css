@@ -1,0 +1,78 @@
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end;
+}
+
+.nav-color {
+  background-color: #193724;
+}
+
+.logo-img {
+  width: 150px;
+  padding: 0;
+}
+
+/* .carousel-item {
+  max-height: fit-content;
+  overflow: hidden;
+} */
+
+.w-100 {
+  max-height: 70vh;
+}
+
+.form-container {
+  display: flex;
+  padding: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgba(223, 223, 206, 0.799);
+}
+
+.form-select {
+  width: 50%;
+}
+
+.form-price {
+  width: 100%;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: "contacto redes-cont copyright";
+  align-items: center;
+  grid-area: footer;
+  background-color: #193724;
+}
+.contacto {
+  grid-area: contacto;
+  padding-left: 5px;
+}
+.redes-cont {
+  grid-area: redes-cont;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+.copyright {
+  grid-area: copyright;
+}
+
+.redes-cont img {
+  width: 70px;
+  padding: 5px;
+}
+
+.button-search {
+  margin-top: 10px;
+}
+@media (max-width: 750px) {
+  .contacto,
+  .copyright {
+    display: none;
+  }
+}
