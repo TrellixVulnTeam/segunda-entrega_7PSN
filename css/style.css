@@ -21,6 +21,7 @@
 .nav-item:hover {
   color: black;
   border: 1px rgba(0, 0, 0, 0.578) solid;
+  border-radius: 5%;
   box-shadow: 2px 2px rgba(0, 0, 0, 0.584);
 }
 
@@ -39,6 +40,7 @@
 
 .logo-img:hover {
   border: 1px rgba(0, 0, 0, 0.578) solid;
+  border-radius: 5%;
   box-shadow: 2px 2px rgba(0, 0, 0, 0.584);
 }
 
@@ -165,6 +167,37 @@
 .envie-consulta {
   border-top: 1px #193724 solid;
   padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-consulta {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-consulta textarea {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.form-consulta p {
+  padding: 5px;
+}
+
+.form-consulta input {
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.form-consulta input:hover {
+  background-color: bisque;
+}
+
+.form-consulta textarea:hover {
+  background-color: bisque;
 }
 
 @media (max-width: 750px) {
@@ -182,4 +215,7 @@
   .iframe-container {
     width: 80%;
   }
+}
+
+@media (max-width: 400px) {
 }
