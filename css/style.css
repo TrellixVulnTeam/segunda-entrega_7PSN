@@ -141,7 +141,8 @@
   background-color: #dfdfcecc;
 }
 .contacto-title,
-.quienes-title {
+.quienes-title,
+.venta-arr-title {
   height: 100px;
   background-image: linear-gradient(#193724b8, #dfdfcecc);
   z-index: 2;
@@ -262,6 +263,40 @@
   width: 100%;
 }
 
+/* Venta y arriendo */
+.card {
+  max-width: 100%;
+}
+
+.mb-3 {
+  margin-bottom: 15px !important;
+}
+
+.venta-arr-main {
+  display: flex;
+  flex-direction: row;
+}
+
+.casas-container {
+  width: 70vw;
+}
+
+.venta-arr-title h1 {
+  padding: 15px;
+}
+
+.venta-arr-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.search-by {
+  width: fit-content;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+
 @media (max-width: 750px) {
   .contacto {
     display: none;
@@ -294,6 +329,10 @@
   .form-container-todos select {
     width: 98%;
   }
+
+  .venta-arr-main {
+    display: block;
+  }
 }
 
 @media (max-width: 400px) {
@@ -321,5 +360,13 @@
 
   .form-control {
     width: 250px;
+  }
+
+  .venta-arr-main {
+    display: block;
+  }
+
+  .casas-container {
+    width: 100vw;
   }
 }
