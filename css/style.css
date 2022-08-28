@@ -97,6 +97,7 @@
 .copyright {
   grid-area: copyright;
   color: #dfdfcecc;
+  font-size: 20px;
 }
 
 .redes-cont img {
@@ -201,6 +202,11 @@
 .form-consulta textarea:hover {
   background-color: bisque;
 }
+
+.form-control {
+  width: 450px;
+}
+
 /* <----- Quienes somos -----> */
 
 .quienes-somos-section {
@@ -311,4 +317,9 @@
   .quienes-somos-section img {
     margin: 5px;
     padding: 0;
+  }
+
+  .form-control {
+    width: 250px;
+  }
 }
