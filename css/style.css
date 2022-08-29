@@ -63,7 +63,8 @@ main .form-container {
       background-color: #dfdfcecc;
       color: black;
       border: 2px black solid;
-      font-weight: bolder; }
+      font-weight: bolder;
+      font-size: large; }
 
 .footer {
   display: grid;
